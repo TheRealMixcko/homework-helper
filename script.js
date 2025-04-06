@@ -7,7 +7,7 @@ async function getAnswer() {
 
   const HF_API_KEY = "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";
 
-  const prompt = `You are a helpful tutor who explains homework in simple, clear steps. Explain this: "${input}"`;
+  const prompt = `Answer the following question in a short, direct way, without any explanations or steps: "${input}"`;
 
   try {
     const result = await fetch("https://api-inference.huggingface.co/models/mistralai/Mistral-7B-Instruct-v0.1", {
