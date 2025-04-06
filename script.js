@@ -5,7 +5,7 @@ async function getAnswer() {
 
   responseBox.innerHTML = "Thinking... 🤔";
 
-  const HF_API_KEY = "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";
+  const HF_API_KEY = "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";
 
   const prompt = `Answer the following question in a short, direct way, without any explanations or steps: "${input}"`;
 
